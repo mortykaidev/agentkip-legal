@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kip — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #262624;
+    --panel: #2f2d2a;
+    --border: #3c3934;
+    --ink: #f4efe6;
+    --ink-muted: #c9c2b2;
+    --sage: #9fc1a0;
+    --coral: #e3a08d;
+    --blue: #93b8de;
+    --gold: #dcc481;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+  a { color: var(--blue); }
+  a:hover, a:focus { color: var(--sage); }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
+  }
+  header {
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 0.4rem;
+    color: var(--ink);
+  }
+  .eyebrow {
+    display: inline-block;
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--sage);
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  .meta {
+    color: var(--ink-muted);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+  section {
+    margin: 2.25rem 0;
+    padding-top: 0.25rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    margin: 0 0 0.75rem;
+    color: var(--ink);
+    border-left: 3px solid var(--sage);
+    padding-left: 0.65rem;
+  }
+  h2.coral { border-left-color: var(--coral); }
+  h2.blue { border-left-color: var(--blue); }
+  h2.gold { border-left-color: var(--gold); }
+  p { margin: 0 0 0.9rem; }
+  .callout {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin: 0.5rem 0 1rem;
+  }
+  .callout strong { color: var(--sage); }
+  ul { margin: 0 0 0.9rem; padding-left: 1.3rem; }
+  li { margin-bottom: 0.55rem; }
+  .perm-list { list-style: none; padding-left: 0; margin: 0; }
+  .perm-list li {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.85rem 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .perm-name {
+    display: inline-block;
+    font-weight: 600;
+    color: var(--gold);
+    margin-bottom: 0.2rem;
+  }
+  .perm-why { color: var(--ink-muted); margin: 0; }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+    color: var(--ink-muted);
+    font-size: 0.9rem;
+  }
+  footer a { color: var(--blue); }
+  code {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.1rem 0.4rem;
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="eyebrow">Privacy Policy</span>
+    <h1>Kip</h1>
+    <p class="meta">Effective date: [EFFECTIVE DATE]</p>
+  </header>
+
+  <section>
+    <p>Kip is a chat app for talking to your own personal AI agent. The AI itself doesn't run on
+    our servers — it runs either on a computer you own (through a companion app called
+    <strong>Noggin</strong> that you download separately) or fully on your iPhone using Apple's
+    on-device Apple Intelligence. Kip is just the window into that agent.</p>
+  </section>
+
+  <section>
+    <h2>We don't collect your data</h2>
+    <div class="callout">
+      <p><strong>We — the developer — never receive your messages, photos, or anything else you
+      send to Kip.</strong> When you chat, your messages go straight to your own Noggin server, or
+      stay entirely on your device if you're using on-device mode. There is no middle server of
+      ours in between.</p>
+      <p style="margin-bottom:0;">Kip has no analytics, no tracking, no ad SDKs, and no account
+      system that reports back to us. That's why the App Store privacy label for Kip says
+      <strong>"Data Not Collected."</strong></p>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="blue">What happens fully on your device</h2>
+    <p>Some things Kip does never leave your iPhone, regardless of whether you're connected to a
+    Noggin server:</p>
+    <ul>
+      <li><strong>Image redaction</strong> — blurring faces or text in photos, using Apple's
+      on-device Vision framework.</li>
+      <li><strong>OCR (text recognition in photos)</strong> — also done on-device with Vision.</li>
+      <li><strong>Voice dictation</strong> — turning your speech into text using on-device speech
+      recognition.</li>
+      <li><strong>On-device AI mode</strong> — when you choose "Continue without a server," your
+      conversation runs entirely through Apple Intelligence on your iPhone.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="coral">Permissions Kip asks for, and why</h2>
+    <p>iOS asks you to approve each of these individually, and you can change your mind anytime in
+    Settings → Kip. Here's exactly why Kip requests each one:</p>
+    <ul class="perm-list">
+      <li>
+        <span class="perm-name">Camera</span>
+        <p class="perm-why">To scan the pairing QR code when connecting to your Noggin server, and
+        to take photos to attach to messages.</p>
+      </li>
+      <li>
+        <span class="perm-name">Local Network</span>
+        <p class="perm-why">To connect to your Noggin server when it's running on the same Wi-Fi
+        network as your iPhone.</p>
+      </li>
+      <li>
+        <span class="perm-name">Microphone &amp; Speech Recognition</span>
+        <p class="perm-why">For voice dictation in chat.</p>
+      </li>
+      <li>
+        <span class="perm-name">Photo Library</span>
+        <p class="perm-why">To attach photos to messages, and to save images back to your library
+        when you ask Kip to.</p>
+      </li>
+      <li>
+        <span class="perm-name">Calendars, Reminders &amp; Contacts</span>
+        <p class="perm-why">Only used when you explicitly ask your agent to find, create, update,
+        or delete a calendar event, reminder, or contact. Kip doesn't read these in the
+        background.</p>
+      </li>
+      <li>
+        <span class="perm-name">Notifications</span>
+        <p class="perm-why">To let you know when a long-running task finishes, or when a new
+        message arrives.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="gold">Data your own Noggin server may store</h2>
+    <p>If you connect Kip to a Noggin server, that server (running on a computer you control) may
+    keep a local history of your conversations so your agent has memory and context. That storage
+    lives on <em>your</em> computer, under <em>your</em> control — we don't have access to it, and
+    it's outside the scope of this policy. Check the Noggin project's own documentation if you want
+    details on how it stores data locally.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>Kip is not directed at children under 13, and we don't knowingly collect information from
+    anyone — children included, since we don't collect data at all.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, we'll update the effective date above and post the new version at
+    this same address.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions about this policy or Kip's privacy practices?</p>
+    <p>
+      Email: <a href="mailto:bhayward00@yahoo.com">bhayward00@yahoo.com</a><br>
+      Web: <a href="https://agentkip.ai">agentkip.ai</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>Kip is developed by Brandon Hayward / AgentKip (<code>com.hayward.agentkip</code>).</p>
+  </footer>
+</main>
+</body>
+</html>
