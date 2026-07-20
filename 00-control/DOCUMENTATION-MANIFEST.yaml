@@ -1,0 +1,919 @@
+{
+  "schema_version": 1,
+  "product": "AgentKip",
+  "canonical_base_url": "https://agentkip.ai",
+  "allowed_internal_routes": [
+    "/",
+    "/account",
+    "/get",
+    "/support"
+  ],
+  "export_targets": {
+    "website": {
+      "registry": "legal-documents.json"
+    },
+    "app": {
+      "registry": "legal-documents.json"
+    }
+  },
+  "documents": [
+    {
+      "id": "privacy-policy",
+      "title": "Privacy Policy",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "GLOBAL-WEB-US-BETA",
+      "source": "10-public-legal/PRIVACY-POLICY.md",
+      "public_url": "https://agentkip.ai/privacy",
+      "sha256": "54477899b874942859da1eac42506d5633ad71a88d8a92269f9640b7f0041556",
+      "material_change": true,
+      "acceptance": "acknowledgment",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "privacy/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "terms-of-service",
+      "title": "Terms of Service",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "10-public-legal/TERMS-OF-SERVICE.md",
+      "public_url": "https://agentkip.ai/terms",
+      "sha256": "0a66921f61200ca6bd01873a728b3360a19c6f18fa07efbead4f0258a1f20116",
+      "material_change": true,
+      "acceptance": "explicit",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "terms/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "acceptable-use-policy",
+      "title": "Acceptable Use Policy",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "10-public-legal/ACCEPTABLE-USE-POLICY.md",
+      "public_url": "https://agentkip.ai/acceptable-use",
+      "sha256": "10d89ed7a0153150564cb3ddace87c1ba47d6720947d48d958b830a90b13b0cd",
+      "material_change": true,
+      "acceptance": "explicit",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "acceptable-use/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "ai-transparency-and-safety",
+      "title": "AI Transparency and Safety Notice",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "10-public-legal/AI-TRANSPARENCY-AND-SAFETY.md",
+      "public_url": "https://agentkip.ai/ai",
+      "sha256": "3692c43f10d90a0cf2f299450ad162aebc80ebf4e677a9bfdfa42796468f7e24",
+      "material_change": true,
+      "acceptance": "explicit",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "ai/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "data-responsibility",
+      "title": "Self-Hosted Data and User Responsibility",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "10-public-legal/DATA-RESPONSIBILITY.md",
+      "public_url": "https://agentkip.ai/data-responsibility",
+      "sha256": "7c294fd7800ac18033d5922670750fb8ee036efa2bb0be04b26e116004b3fad8",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "data-responsibility/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "data-deletion",
+      "title": "Data Deletion",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "10-public-legal/DATA-DELETION.md",
+      "public_url": "https://agentkip.ai/data-deletion",
+      "sha256": "f99523e97182770f92d63c27c840f200fc2e7fbe818650cce1fcfd44a721887b",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "data-deletion/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "10-public-legal/SECURITY.md",
+      "public_url": "https://agentkip.ai/security",
+      "sha256": "44e5e0bdc0ffedef7d45311c72e6ef44d6e82b0444755de44230884533ceafae",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "security/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "subprocessors",
+      "title": "Subprocessors and Data Locations",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "GLOBAL-WEB-US-BETA",
+      "source": "10-public-legal/SUBPROCESSORS.md",
+      "public_url": "https://agentkip.ai/subprocessors",
+      "sha256": "3be80c9545daed91f6950618874252ccc3700c094a14467805ad37792113c1f4",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "subprocessors/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "accessibility",
+      "title": "Accessibility Statement",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "10-public-legal/ACCESSIBILITY.md",
+      "public_url": "https://agentkip.ai/accessibility",
+      "sha256": "8ec2e5453bb9abd0462558d6c2143736a7af6bafe204bde4d490201f90a77818",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "accessibility/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "legal-notice",
+      "title": "Company and Legal Notice",
+      "category": "public-legal",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "10-public-legal/LEGAL-NOTICE.md",
+      "public_url": "https://agentkip.ai/legal-notice",
+      "sha256": "19d84765360839bb9bd87f72ea963e31034b69e78112a6b530b8a60466d1f89e",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "legal-notice/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "age-and-terms-assent",
+      "title": "Age and Terms Assent",
+      "category": "in-app-copy",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "20-in-app-copy/AGE-AND-TERMS-ASSENT.md",
+      "public_url": null,
+      "sha256": "41626e541f4cc8e2087990fb5fae3064817198517ad74caabda5f59326d94304",
+      "material_change": true,
+      "acceptance": "explicit",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "app": "copy/age-and-terms-assent.md"
+      },
+      "registry_targets": [
+        "app"
+      ],
+      "runtime_tokens": [
+        "AI_NOTICE_VERSION",
+        "AI_NOTICE_URL",
+        "AUP_URL",
+        "AUP_VERSION",
+        "TERMS_URL",
+        "TERMS_VERSION"
+      ]
+    },
+    {
+      "id": "privacy-acknowledgment",
+      "title": "Privacy Acknowledgment",
+      "category": "in-app-copy",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "20-in-app-copy/PRIVACY-ACKNOWLEDGMENT.md",
+      "public_url": null,
+      "sha256": "32e173a9fb8e5a8aa54be3891db0a66ec7de3bd0b1756571d04b18d82fc2079e",
+      "material_change": true,
+      "acceptance": "acknowledgment",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "app": "copy/privacy-acknowledgment.md"
+      },
+      "registry_targets": [
+        "app"
+      ],
+      "runtime_tokens": [
+        "PRIVACY_URL",
+        "PRIVACY_VERSION"
+      ]
+    },
+    {
+      "id": "ai-provider-consent",
+      "title": "AI Provider Consent",
+      "category": "in-app-copy",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "20-in-app-copy/AI-PROVIDER-CONSENT.md",
+      "public_url": null,
+      "sha256": "ed41a737cc390932c8123ea13276d85be025c5409c4ef720a276f1d361d066d5",
+      "material_change": true,
+      "acceptance": "provider-specific",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "app": "copy/ai-provider-consent.md"
+      },
+      "registry_targets": [
+        "app"
+      ],
+      "runtime_tokens": [
+        "FEATURE_NAME",
+        "NEW_CATEGORIES",
+        "NEW_PURPOSE",
+        "PREVIOUS_CATEGORIES",
+        "PRIVACY_URL",
+        "PROVIDER_LEGAL_NAME",
+        "PROVIDER_NAME",
+        "PROVIDER_PRIVACY_URL",
+        "SHORT_PURPOSE",
+        "SPECIFIC_DATA_CATEGORIES",
+        "SPECIFIC_PURPOSE",
+        "VERIFIED_RETENTION_AND_TRAINING_SUMMARY"
+      ]
+    },
+    {
+      "id": "authority-attestation",
+      "title": "Connected Target Authority Attestation",
+      "category": "in-app-copy",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "20-in-app-copy/AUTHORITY-ATTESTATION.md",
+      "public_url": null,
+      "sha256": "9afc1490d959467af0dde072ad26e0166aa7f38fa3aa391f92d141f4203977cf",
+      "material_change": true,
+      "acceptance": "explicit",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "app": "copy/authority-attestation.md"
+      },
+      "registry_targets": [
+        "app"
+      ],
+      "runtime_tokens": [
+        "CURRENT_SCOPE",
+        "NEW_CAPABILITIES_OR_SCOPE",
+        "NEW_OR_CHANGED_DATA_CATEGORIES_OR_NONE",
+        "NEW_OR_CHANGED_TRANSFER_PURPOSE_OR_NONE",
+        "OWNER_OR_ACCOUNT",
+        "RECIPIENT_LEGAL_NAME",
+        "RECIPIENT_PRIVACY_URL",
+        "REPOSITORIES_DEVICES_OR_RESOURCES",
+        "SPECIFIC_CAPABILITIES",
+        "SPECIFIC_DATA_CATEGORIES_OR_NONE",
+        "SPECIFIC_TRANSFER_PURPOSE",
+        "SPECIFIC_TRANSFER_PURPOSE_OR_NONE",
+        "TARGET_CANONICAL_IDENTIFIER",
+        "TARGET_DISPLAY_NAME",
+        "TARGET_TYPE"
+      ]
+    },
+    {
+      "id": "auto-apply-risk-acknowledgment",
+      "title": "Auto Apply Risk Acknowledgment",
+      "category": "in-app-copy",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "20-in-app-copy/AUTO-APPLY-RISK-ACKNOWLEDGMENT.md",
+      "public_url": null,
+      "sha256": "1853bcddc583d4b0cd2bdf5774e886b494849dcfc00b85a0501de7b11e03d9c9",
+      "material_change": true,
+      "acceptance": "explicit",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "app": "copy/auto-apply-risk-acknowledgment.md"
+      },
+      "registry_targets": [
+        "app"
+      ],
+      "runtime_tokens": [
+        "BRANCH",
+        "REPOSITORY",
+        "SESSION_OR_AUTHORIZATION_DURATION"
+      ]
+    },
+    {
+      "id": "action-confirmation",
+      "title": "Consequential Action Confirmation",
+      "category": "in-app-copy",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "20-in-app-copy/ACTION-CONFIRMATION.md",
+      "public_url": null,
+      "sha256": "652cc5f7c67374cfeb505bbff2d9761e8db13e5178fa6ab69e5a65619f93e621",
+      "material_change": true,
+      "acceptance": "per-action",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "app": "copy/action-confirmation.md"
+      },
+      "registry_targets": [
+        "app"
+      ],
+      "runtime_tokens": [
+        "ACTION_DESCRIPTION",
+        "ACTION_SHORT_NAME",
+        "AGENT_OR_MODEL",
+        "BLOCK_REASON",
+        "CHECKPOINT_STATUS_AND_REFERENCE",
+        "COMPLETED_EFFECTS",
+        "COST_OR_NO_KNOWN_DIRECT_COST",
+        "EXPECTED_EFFECTS",
+        "EXTERNAL_SIDE_EFFECTS_OR_NONE",
+        "FAILED_OR_UNKNOWN_EFFECTS",
+        "OWNER_OR_ACCOUNT",
+        "PROVIDER",
+        "REVERSIBILITY_AND_MANUAL_RECOVERY",
+        "RISK_REASONS",
+        "RISK_TIER",
+        "SAFE_ERROR_SUMMARY",
+        "TARGET_CANONICAL_IDENTIFIER",
+        "TARGET_DISPLAY_NAME",
+        "TARGET_TYPE"
+      ]
+    },
+    {
+      "id": "app-privacy-worksheet",
+      "title": "App Privacy Worksheet",
+      "category": "apple-submission",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "30-apple-submission/APP-PRIVACY-WORKSHEET.md",
+      "public_url": null,
+      "sha256": "2115a815cc9cfc6b4a146afb3caeed18f2d0b4ee4a77f4a73edcecbb799e3404",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "age-rating-and-review-notes",
+      "title": "Age Rating and App Review Notes",
+      "category": "apple-submission",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "30-apple-submission/AGE-RATING-AND-REVIEW-NOTES.md",
+      "public_url": null,
+      "sha256": "e368688aaba5dc73896c5ddf7bbf479da00182a14a9a48d02d67cdd40450bacb",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "privacy-manifest-inventory",
+      "title": "Privacy Manifest Inventory",
+      "category": "apple-submission",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "30-apple-submission/PRIVACY-MANIFEST-INVENTORY.md",
+      "public_url": null,
+      "sha256": "e4695036614c3120af7033804526b4518a10575ab2dedb10c67e7b8b8364540c",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "account-deletion-demonstration",
+      "title": "Account Deletion Demonstration",
+      "category": "apple-submission",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "30-apple-submission/ACCOUNT-DELETION-DEMONSTRATION.md",
+      "public_url": null,
+      "sha256": "b9e5c2d5b9cfd23f5b3aac01c4f1a8179645599da622c38ca601018daef15e12",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "encryption-export-checklist",
+      "title": "Encryption and Export Checklist",
+      "category": "apple-submission",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "30-apple-submission/ENCRYPTION-EXPORT-CHECKLIST.md",
+      "public_url": null,
+      "sha256": "829850b635fab0a9a5c4aae12d56af0ca75c8710f5ba188bb56f5b0e9e868e10",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "data-flow-inventory",
+      "title": "Data Flow Inventory",
+      "category": "internal-compliance",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "40-internal-compliance/DATA-FLOW-INVENTORY.md",
+      "public_url": null,
+      "sha256": "8c025b7ffe6a628e8e926526f5a0a9c15e267e8ee66db29c085df9fa9e48c455",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "retention-schedule",
+      "title": "Retention Schedule",
+      "category": "internal-compliance",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "40-internal-compliance/RETENTION-SCHEDULE.md",
+      "public_url": null,
+      "sha256": "f2d1a0ee119323a68087403739df3cd3e9897acd1c3f6f016e16e1ddcf1b121a",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "provider-register",
+      "title": "Provider Register",
+      "category": "internal-compliance",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "40-internal-compliance/PROVIDER-REGISTER.md",
+      "public_url": null,
+      "sha256": "28c04a908f876de805208d93b794b264206658aabf05e864a1e811b36bf9128f",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "consent-ledger-specification",
+      "title": "Consent Ledger Specification",
+      "category": "internal-compliance",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "40-internal-compliance/CONSENT-LEDGER-SPECIFICATION.md",
+      "public_url": null,
+      "sha256": "7a994eaf9d17e3ae2489384a27d936a3a40d7cd8d64b8c3b49b1f7895a3cbe51",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "deletion-and-revocation-sop",
+      "title": "Deletion and Revocation SOP",
+      "category": "internal-compliance",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "40-internal-compliance/DELETION-AND-REVOCATION-SOP.md",
+      "public_url": null,
+      "sha256": "22f3a5179b3cbed9266db8800c1787322bd0ba4c5368afbf1cd25ff6eb4347a7",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "incident-response-plan",
+      "title": "Incident Response Plan",
+      "category": "internal-compliance",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "40-internal-compliance/INCIDENT-RESPONSE-PLAN.md",
+      "public_url": null,
+      "sha256": "3959ef1d21123801ba9d4b334e0514b0c541c3901696d6cd0c946830d900c363",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "new-zealand-activation",
+      "title": "New Zealand Activation Checklist",
+      "category": "regional",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "inactive",
+      "region": "NZ",
+      "source": "50-regional/NEW-ZEALAND-ACTIVATION.md",
+      "public_url": null,
+      "sha256": "85e37ec089b2cbb1faca0449981ee0a93d9cb15027b316834d667623f7cc1dfe",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "uk-ireland-activation",
+      "title": "UK and Ireland Activation Checklist",
+      "category": "regional",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "inactive",
+      "region": "UK-IE",
+      "source": "50-regional/UK-IRELAND-ACTIVATION.md",
+      "public_url": null,
+      "sha256": "dcba339b0bfd297a8ea8928f06e158daa56f191af08a25de5ad06a9b36f1bcd0",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "eea-activation",
+      "title": "EEA Activation Checklist",
+      "category": "regional",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "inactive",
+      "region": "EEA",
+      "source": "50-regional/EEA-ACTIVATION.md",
+      "public_url": null,
+      "sha256": "8f5abf13148fca0039f4c49661779bbad27bddc355175af7b06dd7dc94ce9b78",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "us-state-activation",
+      "title": "Additional US State Activation Checklist",
+      "category": "regional",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "inactive",
+      "region": "US-MULTISTATE",
+      "source": "50-regional/US-STATE-ACTIVATION.md",
+      "public_url": null,
+      "sha256": "d71bc3ff763daf8f2fca060e52c4b055e9ebfc2f0e4b4e4f628994430bb736f4",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "guide-backups",
+      "title": "Backups Guide",
+      "category": "user-guide",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "60-user-guides/BACKUPS.md",
+      "public_url": "https://agentkip.ai/guides/backups",
+      "sha256": "3d7081516cc234db6b680ba2087159325b839b62df83be5eabaec96f33b5746c",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "guides/backups/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "guide-permissions",
+      "title": "Permissions Guide",
+      "category": "user-guide",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "60-user-guides/PERMISSIONS.md",
+      "public_url": "https://agentkip.ai/guides/permissions",
+      "sha256": "0a9bd1c1957539139734a99ab9581773c4939952f034340032aa469828bf4fa4",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "guides/permissions/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "guide-github-safety",
+      "title": "GitHub Safety Guide",
+      "category": "user-guide",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "60-user-guides/GITHUB-SAFETY.md",
+      "public_url": "https://agentkip.ai/guides/github-safety",
+      "sha256": "0f180ae5335dc9ba7e97f8433b83c02ae2ac1e966db78ff612546d773b9e91ef",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "guides/github-safety/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "guide-self-hosting",
+      "title": "Self-Hosting Guide",
+      "category": "user-guide",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "60-user-guides/SELF-HOSTING.md",
+      "public_url": "https://agentkip.ai/guides/self-hosting",
+      "sha256": "5ecd473de81d7eb3235015316ae6462e28129fc7c506a160fa71f3e039262d05",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "guides/self-hosting/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "guide-account-deletion",
+      "title": "Account Deletion Guide",
+      "category": "user-guide",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "60-user-guides/ACCOUNT-DELETION.md",
+      "public_url": "https://agentkip.ai/guides/account-deletion",
+      "sha256": "93785e0f384c22b02616bce54c0c04fc0a6cc0622dada53c56f48d58a0f1262e",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "guides/account-deletion/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "guide-diagnostics",
+      "title": "Diagnostics Guide",
+      "category": "user-guide",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "60-user-guides/DIAGNOSTICS.md",
+      "public_url": "https://agentkip.ai/guides/diagnostics",
+      "sha256": "960d553a7922b11fbb42e094bb094ccbb5e4721191672e95a2ddbec5dde27cbf",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "guides/diagnostics/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "guide-recovery",
+      "title": "Recovery Guide",
+      "category": "user-guide",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "US",
+      "source": "60-user-guides/RECOVERY.md",
+      "public_url": "https://agentkip.ai/guides/recovery",
+      "sha256": "eb5fbadbb0ebfbd6889326fb3203a72150e2f9bf3cee0bebff4124b36a5b3741",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {
+        "website": "guides/recovery/content.md"
+      },
+      "registry_targets": [
+        "website",
+        "app"
+      ]
+    },
+    {
+      "id": "legal-review-triggers",
+      "title": "Future Legal Review Triggers",
+      "category": "future-review",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "GLOBAL",
+      "source": "90-future-review/LEGAL-REVIEW-TRIGGERS.md",
+      "public_url": null,
+      "sha256": "4b78d5b6d57e9a8752ead8576c568c9ae973324790e8983c1d7c9e5c8a32d955",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    },
+    {
+      "id": "unresolved-questions",
+      "title": "Unresolved Questions",
+      "category": "future-review",
+      "version": "2026.07.15-draft.1",
+      "effective_date": "2026-07-15",
+      "status": "draft",
+      "region": "GLOBAL",
+      "source": "90-future-review/UNRESOLVED-QUESTIONS.md",
+      "public_url": null,
+      "sha256": "8a3eb425915e94e465bf0ab223b2416cf5c7a858c6f480c8c6eaed70dc98926a",
+      "material_change": true,
+      "acceptance": "none",
+      "approver": "Brandon",
+      "publication_commit": "UNPUBLISHED",
+      "exports": {},
+      "registry_targets": []
+    }
+  ]
+}
